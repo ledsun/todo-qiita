@@ -1,6 +1,8 @@
 #!/usr/bin/env node
-var postChatworkMessage = require('post-chatwork-message')
-var APIKey = 'c2d3f902610cce26458598284970b8f2',
-roomId = '18211191'
+var postChatworkMessage = require('post-chatwork-message'),
+  APIKey = process.env.CHATWORK_TOKEN,
+  roomId = process.env.ROOM_ID,
+  DAY = process.env.DAY
 
-postChatworkMessage(APIKey, roomId, 'hello world')
+if(new Date().getUTCDay().toString() === DAY)
+  postChatworkMessage(APIKey, roomId, 'hello world')
