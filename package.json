@@ -1,0 +1,18 @@
+{
+  "name": "todo-qiita",
+  "version": "0.0.1",
+  "description": "Notify of writing a article in Qiita by Chatwork.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Notify",
+    "Qiita",
+    "Chatwork",
+    "Heroku",
+    "scheduler"
+  ],
+  "author": "sihgeru.nakajima <shigeru.nakajima@luxiar.com>",
+  "license": "MIT"
+}
