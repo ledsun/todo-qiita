@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+var postChatworkMessage = require('post-chatwork-message')
+var APIKey = 'c2d3f902610cce26458598284970b8f2',
+roomId = '18211191'
+
+postChatworkMessage(APIKey, roomId, 'hello world')

@@ -14,5 +14,8 @@
     "scheduler"
   ],
   "author": "sihgeru.nakajima <shigeru.nakajima@luxiar.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "post-chatwork-message": "0.0.2"
+  }
 }
