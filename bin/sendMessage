@@ -5,4 +5,4 @@ var postChatworkMessage = require('post-chatwork-message'),
   DAY = process.env.DAY
 
 if(new Date().getUTCDay().toString() === DAY)
-  postChatworkMessage(APIKey, roomId, 'hello world')
+  postChatworkMessage(APIKey, roomId, 'Qiitaにブログ書いでねぇ、わりいごはいねえがー(devil)\nhttp://qiita.com/organizations/luxiar')
