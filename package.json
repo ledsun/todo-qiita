@@ -1,20 +1,11 @@
 {
   "name": "todo-qiita",
-  "version": "0.0.1",
   "description": "Notify of writing a article in Qiita by Chatwork.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "Notify",
-    "Qiita",
-    "Chatwork",
-    "Heroku",
-    "scheduler"
-  ],
+  "version": "0.0.1",
   "author": "sihgeru.nakajima <shigeru.nakajima@luxiar.com>",
-  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ledsun/todo-qiita/issues"
+  },
   "dependencies": {
     "babel": "^5.8.23",
     "handlebars": "^4.0.3",
@@ -22,5 +13,22 @@
     "stream-array": "^1.1.1",
     "superagent": "^1.4.0",
     "through2": "^2.0.0"
+  },
+  "homepage": "https://github.com/ledsun/todo-qiita",
+  "keywords": [
+    "Chatwork",
+    "Heroku",
+    "Notify",
+    "Qiita",
+    "scheduler"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ledsun/todo-qiita.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
