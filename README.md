@@ -6,7 +6,7 @@ Qiita への投稿を促すリマインダーです。
 Heroku Scehulerを使ってチャットワークに通知しています。
 詳しくは[Heroku Schedulerを使ってChatworkに定期ポストする - Qiita](http://qiita.com/ledsun/items/81d47d934f859a4a8a6b)をみてください。
 
-Heroku Scehulerは毎日、毎時、10分毎しか選べません。
+Heroku Scehulerは毎日、毎時、10分毎しか選べません。
 スクリプト内で曜日によって通知するか判定しています。
 
 # 設定方法
@@ -48,5 +48,5 @@ heroku config:set CHATWORK_TOKEN=xxx
 ローカルでテスト実行するには
 
 ```
-env DAY=3 CHATWORK_TOKEN=xxx ROOM_ID=18211191 node bin//sendMessage
+env DAY=3 CHATWORK_TOKEN=xxx ROOM_ID=18211191 node bin/sendMessage
 ```
