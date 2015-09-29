@@ -1,8 +1,3 @@
 #!/usr/bin/env node
-var postChatworkMessage = require('post-chatwork-message'),
-  APIKey = process.env.CHATWORK_TOKEN,
-  roomId = process.env.ROOM_ID,
-  DAY = process.env.DAY
-
-if(new Date().getUTCDay().toString() === DAY)
-  postChatworkMessage(APIKey, roomId, 'Qiitaにブログ書いでねぇ、わりいごはいねえがー(devil)\nhttp://qiita.com/organizations/luxiar')
+require("babel/register")
+require('../lib/sendMessage')
