@@ -50,3 +50,8 @@ heroku config:set CHATWORK_TOKEN=xxx
 ```
 env DAY=3 CHATWORK_TOKEN=xxx ROOM_ID=18211191 node bin/sendMessage
 ```
+
+# デプロイ
+
+Githubのリポジトリと連携しています。
+masterにpushすれば自動的にHerokuにデプロイします。
