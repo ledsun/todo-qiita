@@ -8,8 +8,8 @@
   },
   "dependencies": {
     "babel": "^5.8.23",
-    "handlebars": "^4.0.3",
-    "post-chatwork-message": "0.1.2",
+    "handlebars": "^4.0.4",
+    "post-chatwork-message": "^0.1.4",
     "stream-array": "^1.1.1",
     "superagent": "^1.4.0",
     "through2": "^2.0.0"
